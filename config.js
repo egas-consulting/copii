@@ -140,7 +140,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: './Germany.png',
+            image: './germany.png',
             description: '',
             location: {
                 center: [9.464329, 48.817151],
