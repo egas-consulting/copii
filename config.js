@@ -102,7 +102,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: './czechia.png',
+            image: './Czechia.png',
             description: '',
             location: {
                 center: [14.496911, 50.017777],
