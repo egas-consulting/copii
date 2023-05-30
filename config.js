@@ -165,6 +165,366 @@ var config = {
                 // }
             ]
         },
+        {
+            id: 'exp3',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jane Eyre',
+            image: './jane.png',
+            description: 'Jane este o fată tânără cu visuri mari, născută într-o familie cu resurse limitate dintr-o comunitate rurală. Ea posedă un intelect ascuțit și o sete de cunoaștere și, prin determinarea și munca sa grea, urmărește educația și se străduiește să creeze o schimbare pozitivă în comunitatea ei.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'ind3',
+            alignment: 'right',
+            hidden: false,
+            title: 'Rata deprivării materiale severe la copiii sub 18 ani',
+            image: '',
+            description: 'Eurostat numește deprivare materială severă cazurile în care cel puțin 7 din cele 13 privațiuni sunt întrunite la copii: nu își pot permite i) să plătească chirie sau facturile de utilități, ii) să își mențină locuința suficient de caldă, iii) să facă față cheltuielilor neprevăzute, iv) să consume carne sau echivalent proteic în fiecare a doua zi, v) să aibă o săptămână de vacanță,  vi) să aibă acces la un autoturism, vii) să înlocuiască mobilierul uzat; viii) să înlocuiască hainele uzate cu altele noi; ix) să aibă două perechi de pantofi potriviți; x) să aibă bani de buzunar, xi) să aibă activități de petrecere a timpului liber regulate; xii) să se întâlnească cu prietenii/familia o masă cel puțin o dată pe lună; și xiii) să aibă o conexiune la internet. <iframe title="Rata deprivării materiale severe (%)" aria-label="Map" id="datawrapper-chart-gfOQE" src="https://datawrapper.dwcdn.net/gfOQE/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="620" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();        </script> ',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'exp4',
+            alignment: 'left',
+            hidden: false,
+            title: 'Heidi',
+            image: './heidi.png',
+            description: 'Heidi este o fată orfană care merge să locuiască cu bunicul ei retras și aspru, Adolph Kramer, în Alpii Elvețieni. În ciuda reticenței sale inițiale, natura ei cu suflet cald și relația cu bunicul său înfloreșc treptat, iar el devine o figură iubitoare și grijulie în viața ei.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'ind4',
+            alignment: 'right',
+            hidden: false,
+            title: 'Copii crescuți de bunici',
+            image: '',
+            description: 'În Portugalia, Spania, Italia și România, unde plățile de asistență socială pentru părinți și mamele care stau acasă sunt limitate, iar îngrijirea formală a copiilor și oportunitățile de muncă cu jumătate de normă pentru mame sunt puține, bunicii oferă o mare parte din îngrijirea intensivă a nepoților lor. <iframe title="Pocentul bunicelor care oferă ingrijire intensă a copiilor" aria-label="Map" id="datawrapper-chart-nE3eq" src="https://datawrapper.dwcdn.net/nE3eq/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="620" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();  </script>',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'exp5',
+            alignment: 'left',
+            hidden: false,
+            title: 'Peter Pevensie',
+            image: './narnia.png',
+            description: 'Peter, împreună cu frații săi, este transportat în ținutul magic Narnia. Părinții lor, profesorul Kirke și doamna Kirke, sunt prezentate ca figuri inteligente și susținătoare care îi ghidează pe copiii lor în aventurile și dezvoltarea lor.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'ind5',
+            alignment: 'right',
+            hidden: false,
+            title: 'Educația părinților',
+            image: '',
+            description: 'Educația părinților se referă la procentul copiilor ai căror părinți au mai mult decât studii liceale. <iframe title="Procentul copiilor ai căror părinți au absolvit învățământul tertiar" aria-label="Map" id="datawrapper-chart-o69c3" src="https://datawrapper.dwcdn.net/o69c3/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="647" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script>',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'exp6',
+            alignment: 'left',
+            hidden: false,
+            title: 'Alice',
+            image: './alice.png',
+            description: 'Alice este o fată extrem de educată și curioasă intelectual, provenind dintr-o familie înstărită din oraș. Ea caută constant cunoștințe și se adâncește în activități academice, servind ca model pentru colegii ei și folosindu-și inteligența pentru a rezolva probleme complexe.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'ind6',
+            alignment: 'right',
+            hidden: false,
+            title: 'Rezultatele la testele PISA 2018',
+            image: '',
+            description: 'În anul 2018, la testele PISA, copii din Estonia, Finlanda, Polonia, Irlanda, Slovenia au înregistrat cele mai mari scoruri, de peste 500 de puncte. România a avut unul dintre cele mai mici punctaje, 428 de puncte. (aici vine harta care nu merge)',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'exp7',
+            alignment: 'left',
+            hidden: false,
+            title: 'Huckleberry Finn',
+            image: './huck.png',
+            description: 'Huckleberry Finn, cunoscut sub numele de Huck, este un băiat neastâmpărat și independent care trăiește în St. Petersburg, Missouri. El este sub grija văduvei Douglas, o femeie cu inimă bună care încearcă să-l civilizeze. Cu toate acestea, Huck tânjește după libertate și resimte constrângerile societății. Într-o zi, tatăl abuziv și alcoolic al lui Huck, Pap, se întoarce în oraș și cere custodia lui Huck. Îngrijorat pentru siguranța sa, Huck decide să-și simuleze propria moarte și să fugă. ',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'ind7',
+            alignment: 'right',
+            hidden: false,
+            title: 'Indexul global care analizează mediul în care trăiesc coii din diverse state',
+            image: '',
+            description: 'Indexul Out of the Shadows este un indicator global care analizează modul în care țările abordează exploatarea și abuzul sexual al copiilor. Fiind un compus de date, indexul măsoară siguranța mediului sau lipsa acesteia pentru copii. Sunt luate în calcul peste 60 de state. La nivelul Uniunii Europene, italia înregistrează cel mai scăzut scor. ',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'exp8',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Imaginea copiilor în Uniunea Europeană este influențată în mare măsură de condițiile de mediu și oportunitățile cu care aceștia se confruntă în procesul lor de creștere. Fiecare țară și regiune au caracteristici specifice care determină în mod direct percepția și atitudinea copiilor față de viață, dar și modul în care aceștia se comportă ca adulți. În plus, importanța părinților în modelarea imaginii copiilor și transmiterea valorilor este crucială. Prin urmare, în cele ce urmează vom explora modul în care părinții din diverse zone ale Europei se raportează la valorile pe care le inoculează copiilor lor. În Scandinavia, de exemplu, părinții acordă o importanță deosebită egalității de gen, libertății individuale și dezvoltării personale a copiilor lor. Pe de altă parte, în țările din Europa Centrală și de Est, valorile tradiționale și respectul față de autoritate ocupă un loc important în educația copiilor. Părinții din aceste regiuni tind să promoveze disciplina, respectul față de reguli și valorile conservatoare. ',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'exp8',
+            alignment: 'center',
+            hidden: false,
+            title: 'Cum se citește graficul',
+            image: './howto.png',
+            description: 'Graficele de mai jos sunt construite pornind de la ultimele date ale World Values Survey și se referă la procentul părinților din fiecare stat care văd anumite valori ca fiind importante.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
 
     
 
