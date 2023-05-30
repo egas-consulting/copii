@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/ed1990/cli7afd9m02oe01pran963bf9',
+    style: 'mapbox://styles/ed1990/clia8096n00uy01qubqs38h82',
     accessToken: 'pk.eyJ1IjoiZWQxOTkwIiwiYSI6ImNsaTlkNm41aDQ0d3AzZW50bjY2YWI0N3AifQ.jUhXIR0aX5ZW4uT690N7SQ',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -21,7 +21,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Perioada copilăriei este caracterizată prin consumul cel mai mare de povești. Ne închipuim adesea în pielea personajelor. Pentru această experiență interactivă, am analizat peste 30 de indicatori care se concentrează pe viața, traiul și educația copiilor din Uniunea Europeană și din întreaga lume. Am selectat cei mai relevanți dintre acești indicatori. Fiecare tip de indicator a fost asociat cu un personaj din literatura pentru copii. Dacă un stat ocupă primul loc la un anumit indicator, acesta este reprezentat de personajul specific indicatorului.',
+            description: 'Perioada copilăriei este caracterizata prin consumul cel mai mare de povești. Ne închipuim adesea în pielea personajelor. Pentru această experiență interactivă, am analizat peste 30 de indicatori care se concentrează pe viața, traiul și educația copiilor din Uniunea Europeană și din întreaga lume. Am selectat cei mai relevanți dintre acești indicatori. Fiecare tip de indicator a fost asociat cu un personaj din literatura pentru copii. Dacă un stat ocupă primul loc la un anumit indicator, acesta este reprezentat de personajul specific indicatorului.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 5,
