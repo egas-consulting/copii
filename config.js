@@ -497,7 +497,7 @@ var config = {
         },
         {
             id: 'exp8',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: 'Cum se citește graficul',
             image: './howto.png',
@@ -590,7 +590,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: './czechia.png',
+            image: './Czechia.png',
             description: '',
             location: {
                 center: [14.496911, 50.017777],
@@ -628,7 +628,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: './Germany.png',
+            image: './germany.png',
             description: '',
             location: {
                 center: [9.464329, 48.817151],
@@ -895,7 +895,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: './Turkey.png',
+            image: './turkey.png',
             description: '',
             location: {
                 center: [28.968874, 41.027248],
