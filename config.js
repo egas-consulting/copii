@@ -11,7 +11,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: '<span style="font-family:sans-serif; padding: 0.5vh; border-radius: 10px; color:#926834; font-size:1.2rem" >Poveștile învârt lumea</span>',
-    subtitle: '<span style=" font-family: playfair display, serif; color:#926834; font-size:2.3rem" >Dacă ar fi din povești, ce personaj ar fi copiii din statele UE  </span>',
+    subtitle: '<span style=" font-family: playfair display, serif; color:#926834; font-size:2.3rem" >Dacă ar fi din povești, ce personaj ar fi copiii din statele UE </span>',
     byline: '<img src="./scroll.png"> </p> <p> scroll </p><p><img src="./heroimage.png"</p>',
     footer: '<br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a>',
     chapters: [
