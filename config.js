@@ -11,7 +11,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: '<span style="font-family:sans-serif; padding: 0.5vh; border-radius: 10px; color:#926834; font-size:1.2rem" >Poveștile învârt lumea</span>',
-    subtitle: '<span style=" font-family: playfair display, serif; color:#926834; font-size:2.3rem" >Dacă ar fi din povești, ce personaj ar fi copiii din statele UE </span>',
+    subtitle: '<span style=" font-family: playfair display, serif; color:#926834; font-size:2.3rem" >Dacă ar fi din povești, ce personaj ar fi copiii din statele UE  </span>',
     byline: '<img src="./scroll.png"> </p> <p> scroll </p><p><img src="./heroimage.png"</p>',
     footer: '<br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a>',
     chapters: [
@@ -21,7 +21,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Perioada copilăriei este caracterizata prin consumul cel mai mare de povești. Ne închipuim adesea în pielea personajelor. Pentru această experiență interactivă, am analizat peste 30 de indicatori care se concentrează pe viața, traiul și educația copiilor din Uniunea Europeană și din întreaga lume. Am selectat cei mai relevanți dintre acești indicatori. Fiecare tip de indicator a fost asociat cu un personaj din literatura pentru copii. Dacă un stat ocupă primul loc la un anumit indicator, acesta este reprezentat de personajul specific indicatorului.',
+            description: 'Perioada copilăriei este caracterizată prin consumul cel mai mare de povești. Ne închipuim adesea în pielea personajelor. Pentru această experiență interactivă, am analizat peste 30 de indicatori care se concentrează pe viața, traiul și educația copiilor din Uniunea Europeană și din întreaga lume. Am selectat cei mai relevanți dintre acești indicatori. Fiecare tip de indicator a fost asociat cu un personaj din literatura pentru copii. Dacă un stat ocupă primul loc la un anumit indicator, acesta este reprezentat de personajul specific indicatorului.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 5,
