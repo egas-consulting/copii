@@ -10,18 +10,18 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: '',
-    subtitle: '',
-    byline: '<img src="./scroll.png"> </p> <p> scroll </p>',
+    title: '<span style="font-family:sans-serif; padding: 0.5vh; border-radius: 10px; color:#926834; font-size:1.2rem" >Poveștile învârt lumea</span>',
+    subtitle: '<span style=" font-family: playfair display, serif; color:#926834; font-size:2.3rem" >Dacă ar fi din povești, ce personaj ar fi copiii din statele UE  </span>',
+    byline: '<img src="./scroll.png"> </p> <p> scroll </p><p><img src="./heroimage.png"</p>',
     footer: '<br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a>',
     chapters: [
         {
             id: 'slug-style-id',
-            alignment: 'left',
-            hidden: true,
+            alignment: 'center',
+            hidden: false,
             title: '',
-            image: '.png',
-            description: '',
+            image: '',
+            description: 'Perioada copilăriei este caracterizată prin consumul cel mai mare de povești. Ne închipuim adesea în pielea personajelor. Pentru această experiență interactivă, am analizat peste 30 de indicatori care se concentrează pe viața, traiul și educația copiilor din Uniunea Europeană și din întreaga lume. Am selectat cei mai relevanți dintre acești indicatori. Fiecare tip de indicator a fost asociat cu un personaj din literatura pentru copii. Dacă un stat ocupă primul loc la un anumit indicator, acesta este reprezentat de personajul specific indicatorului.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 5,
@@ -45,6 +45,134 @@ var config = {
                 // }
             ]
         },
+        {
+            id: 'exp1',
+            alignment: 'left',
+            hidden: false,
+            title: 'Fetița cu chibrituri',
+            image: './fetita.png',
+            description: 'Este o poveste emoționantă scrisă de Hans Christian Andersen. Povestea se învârte în jurul unei tinere fete sărace, care încearcă să vândă chibrituri într-o seară de Revelion înghețată. Este desculță, îmbrăcată prost și nu are adăpost. Disperată de frig, decide să aprindă chibriturile pentru a crea o sursă trecătoare de căldură. A doua dimineață, trupul înghețat al fetei este descoperit pe stradă.  Povestea servește ca o amintire emoționantă a asprimea vieții pentru cei săraci și vulnerabili și puterea imaginației de a găsi alinare în mijlocul disperării.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'ind1',
+            alignment: 'right',
+            hidden: false,
+            title: 'Indicatorul: Rata mortalității la copiii până în vârsta de 5 ani ',
+            image: '',
+            description: 'Rata mortalității la copiii sub 5 ani se referă la probabilitatea ca un nou-născut să moară înainte de a atinge vârsta de exact 5 ani, exprimată per 1.000 de nașteri vii. În 2021, 5,0 milioane de copii sub vârsta de 5 ani au murit. La nivel global, bolile infecțioase, inclusiv pneumonie, diaree și malaria, rămân principalele cauze ale deceselor la copiii sub 5 ani, alături de nașterea prematură și complicațiile legate de naștere. Copiii din România și Bulgaria sunt fetițele cu chibrituri ale Europei. <iframe title="Rata mortalității la copiii până în vârsta de 5 ani (%)" aria-label="Map" id="datawrapper-chart-Y5Mo0" src="https://datawrapper.dwcdn.net/Y5Mo0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="620" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'exp2',
+            alignment: 'left',
+            hidden: false,
+            title: 'Oliver Twist',
+            image: './oliver.png',
+            description: '"Oliver Twist" este un roman clasic scris de Charles Dickens și publicat în anul 1838. Povestea urmărește viața unui tânăr orfan numit Oliver, care crește în condițiile aspre ale unei instituții de ocrotire din Anglia secolului al XIX-lea. După ce trece prin abuzuri și greutăți, Oliver evadează și se găsește în lumea infracțională a Londrei.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'ind2',
+            alignment: 'right',
+            hidden: false,
+            title: 'Indicator: Rata mortalității materne',
+            image: '',
+            description: 'Mortalitatea maternă se referă la decesele cauzate de complicații în timpul sarcinii sau nașterii. Între 2000 și 2020, rata mortalității materne globale (MMR) a scăzut cu 34 la sută - de la 342 de decese la 223 de decese la 100.000 de nașteri vii, conform estimărilor interinstituționale ale ONU. În anul 2020, rata mortalității materne a fost foarte mare aici. <iframe title="Rata mortalității materne (%)" aria-label="Map" id="datawrapper-chart-SQyf0" src="https://datawrapper.dwcdn.net/SQyf0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="620" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script>',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 5,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+
+    
+
+
+
+
+
+
         {
             id: 'two-identifier',
             alignment: 'right',
@@ -140,7 +268,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: './germany.png',
+            image: './Germany.png',
             description: '',
             location: {
                 center: [9.464329, 48.817151],
