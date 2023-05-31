@@ -12,7 +12,7 @@ var config = {
     auto: false,
     title: '<span style="font-family:sans-serif; padding: 0.5vh; border-radius: 10px; color:#926834; font-size:1.2rem" >Copiii României, copiii Europei</span>',
     subtitle: '<span style=" font-family: playfair display, serif; color:#926834; font-size:2.3rem" >Cum arăta povestea vieții copilului tău, dacă s-ar fi născut în altă țară</span>',
-    byline: '<a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a> <p> <img src="./scroll.png"> </p> <p> scroll </p> <p><img src="./copii.png" class="center"</p>',
+    byline: '<a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a> <p> <img src="./scroll.png"> </p> <p> scroll </p> <p><img src="./copii.png" </p>',
     footer: '<br> Creat folosind <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling </a> <p>Ilustrația este făcută cu Microsoft Bing Image creator</p>',
     chapters: [
         {
@@ -46,12 +46,12 @@ var config = {
             ]
         },
         {
-            id: 'slug-style-id2',
-            alignment: 'left',
+            id: 'slug-style-id5',
+            alignment: 'center',
             hidden: false,
             title: '',
             image: '',
-            description: 'Sunt două aspecte esențiale pentru viața și modelarea unui copil: mediul în care se naște și educația pe care o primește în primii ani de viață, de la părinți. Acești doi factori determină dacă un copil va deveni un adult responsabil și încrezător sau, dimpotrivă, un adult copleșit de griji și anxietăți. Ba chiar, uneori vor determina dacă acel copil are o șansă să supraviețuiască.',
+            description: 'Copiii învață și se bucură cel mai mult cu povești. În această experiență interactivă Panorama, am analizat mai mulți indicatori sociali, care marchează puternic startul în viață al unui copil. Și am asociat fiecare indicator cu un personaj de poveste. Copiii din țările care stau cel mai prost la acești indicatori au șansele statistice cele mai mari să se asemene cu personajele respective.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 2,
@@ -75,6 +75,10 @@ var config = {
                 // }
             ]
         },
+
+
+
+        
         {
             id: 'slug-style-id3',
             alignment: 'right',
@@ -135,43 +139,14 @@ var config = {
                 // }
             ]
         },
-        {
-            id: 'slug-style-id5',
-            alignment: 'center',
-            hidden: false,
-            title: '',
-            image: '',
-            description: 'Copiii învață și se bucură cel mai mult cu povești. În această experiență interactivă Panorama, am analizat mai mulți indicatori sociali, care marchează puternic startul în viață al unui copil. Și am asociat fiecare indicator cu un personaj de poveste. Copiii din țările care stau cel mai prost la acești indicatori au șansele statistice cele mai mari să se asemene cu personajele respective.',
-            location: {
-                center: [12.02595, 49.90885],
-                zoom: 2,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+        
         {
             id: 'slug-style-id6',
             alignment: 'center',
             hidden: false,
             title: '',
             image: '',
-            description: 'În partea a doua a acestei povești vizuale despre copiii lumii în care trăim, ne concentrăm pe formarea primită în primii ani de viață, de la părinți. În fiecare țară, se pune accent pe diverse valori și lucruri pe care părinții le consideră importante în viață, fără ca micii copii să aibă vreun cuvânt de spus.',
+            description: 'În partea a doua a acestei povești vizuale despre copiii lumii în care trăim, ne concentrăm pe formarea primită în primii ani de viață, de la părinți. În fiecare țară, se pune accent pe diverse valori și lucruri pe care părinții le consideră importante în viață, fără ca micii copii să aibă vreun cuvânt de spus. Plecând de la un studiu World Values Survey, facem o incursiune printre copiii din câteva țări reprezentative pentru regiunile Europei, să vedem cum îi modelează cultural și social părinții lor, încă de mici.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 2,
@@ -195,36 +170,7 @@ var config = {
                 // }
             ]
         },
-        {
-            id: 'slug-style-id7',
-            alignment: 'center',
-            hidden: false,
-            title: '',
-            image: '',
-            description: 'Plecând de la un studiu World Values Survey, facem o incursiune printre copiii din câteva țări reprezentative pentru regiunile Europei, să vedem cum îi modelează cultural și social părinții lor, încă de mici.',
-            location: {
-                center: [12.02595, 49.90885],
-                zoom: 2,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+        
 
 
 
@@ -262,7 +208,7 @@ var config = {
             id: 'ind1',
             alignment: 'right',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata mortalității la copiii până în vârsta de 5 ani </span> ',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem"  >Indicator: Rata mortalității la copiii până în vârsta de 5 ani </span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Bulgaria, Malta </p>',
             image: '',
             description: 'E vorba de probabilitatea ca un nou-născut să moară înainte de a atinge vârsta de 5 ani, exprimată per 1.000 de nașteri vii. În 2021, 5 milioane de copii sub vârsta de 5 ani au murit, în toată lumea. În UE mor, în medie, 3,7 copii din 1000 cu vârsta sub 5 ani.  La nivel global, bolile infecțioase, inclusiv pneumonie, diaree și malaria, rămân principalele cauze ale deceselor la copiii sub 5 ani, alături de nașterea prematură și complicațiile legate de naștere. Copiii din România și Bulgaria sunt fetițele cu chibrituri ale Europei. Acestea sunt țările UE unde mor cei mai mulți copii sub 5 ani.',
             location: {
@@ -352,7 +298,7 @@ var config = {
             id: 'ind2',
             alignment: 'right',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata mortalității materne</span> ',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata mortalității materne</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Cipru, Letonia, Ungaria </p>',
             image: '',
             description: 'E vorba de mamele care mor din cauza unor complicații de sănătate, în timpul sarcinii sau nașterii. Între 2000 și 2020, rata mortalității materne globale (MMR) a scăzut cu 34% - de la 342 de decese la 223 de decese la 100.000 de nașteri vii, conform estimărilor interinstituționale ale ONU.',
             location: {
@@ -442,7 +388,7 @@ var config = {
             id: 'ind3',
             alignment: 'right',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata deprivării materiale severe la copiii sub 18 ani</span> ',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata deprivării materiale severe la copiii sub 18 ani</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Bulgaria, Grecia </p>',
             image: '',
             description: 'Sărăcia nu e doar un cuvânt generic pentru cei care nu au bani. Se traduce în situații extrem de concrete, în statisticile UE. Conform Eurostat, deprivarea materială severă apare atunci când cel puțin 7 din 13 privațiuni există în viața unui copil. Mai exact, el sau familia în care trăiește nu își pot permite următoarele lucruri: i) să plătească chiria sau facturile de utilități; ii) să își mențină locuința suficient de caldă; iii) să facă față cheltuielilor neprevăzute; iv) să consume carne sau echivalent proteic în fiecare a doua zi; v) să aibă o săptămână de vacanță; vi) să aibă acces la un autoturism; vii) să înlocuiască mobilierul uzat; viii) să înlocuiască hainele uzate cu altele noi; ix) să aibă două perechi de pantofi potriviți; x) să aibă bani de buzunar, xi) să aibă activități de petrecere a timpului liber regulate; xii) să se întâlnească cu prietenii/familia la o masă cel puțin o dată pe lună; xiii) să aibă o conexiune la internet. ',
             location: {
@@ -532,7 +478,7 @@ var config = {
             id: 'ind4',
             alignment: 'right',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Copiii crescuți de bunici</span> ',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Copiii crescuți de bunici</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Italia, Spania </p>',
             image: '',
             description: 'În Portugalia, Spania, Italia și România, unde plățile de asistență socială pentru părinți și pentru mamele care stau acasă sunt limitate, iar îngrijirea formală a copiilor și oportunitățile de muncă cu jumătate de normă pentru mame sunt puține, bunicii oferă o mare parte din îngrijirea intensivă a nepoților lor. Tot în grija bunicilor ajung și copiii ai căror părinți sunt plecați la muncă în alte țări sau orașe, așa cum este cazul atât de des în România.',
             location: {
@@ -594,7 +540,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Peter Pevensie </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De C. S. Lewis </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Părinții educați </span> </p>',
             image: '',
-            description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./narnia.png"></div>Peter și frații săi sunt transportați în ținutul magic Narnia. Părinții lor, profesorul Kirke și doamna Kirke, sunt prezentate ca figuri inteligente și susținătoare, care îi ghidează pe copiii lor în aventurile și dezvoltarea lor.',
+            description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./narnia.png"></div>Peter și frații săi sunt transportați în ținutul magic Narnia. Profesorul Kirke și doamna Kirke sunt prezentate ca figuri inteligente și susținătoare, care îi ghidează pe copiii lor în aventurile și dezvoltarea lor.',
             location: {
                 center: [5.289564, 52.121422],
                 zoom: 4,
@@ -622,7 +568,7 @@ var config = {
             id: 'ind5',
             alignment: 'right',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Educația părinților</span> ',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Educația părinților</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Danemarca, Olanda, Irlanda </p>',
             image: '',
             description: 'Educația părinților se referă la procentul copiilor ai căror părinți au mai mult decât studii liceale. <iframe title="Procentul copiilor ai căror părinți au absolvit învățământul tertiar" aria-label="Map" id="datawrapper-chart-o69c3" src="https://datawrapper.dwcdn.net/o69c3/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="647" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script>',
             location: {
@@ -682,7 +628,7 @@ var config = {
             id: 'ind6',
             alignment: 'right',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rezultatele la testele PISA</span> ',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rezultatele la testele PISA</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Estonia, Finlanda, Irlanda </p>',
             image: '',
             description: 'În anul 2018, la testele PISA, copiii din Estonia, Finlanda, Polonia, Irlanda, Slovenia au înregistrat cele mai mari scoruri, de peste 500 de puncte. Elevii din România au avut unul dintre cele mai mici punctaje, 428 de puncte. (aici vine harta care nu merge',
             location: {
@@ -772,7 +718,7 @@ var config = {
             id: 'ind7',
             alignment: 'right',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Indexul global care analizează exploatarea și abuzul asupra copiilor</span> ',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Indexul global care analizează exploatarea și abuzul asupra copiilor</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Italia, România </p>',
             image: '',
             description: 'Indexul Out of the Shadows este un indicator global care analizează modul în care țările abordează exploatarea și abuzul sexual al copiilor. Indexul măsoară siguranța sau lipsa acesteia în mediul în care trăiesc copiii. Sunt luate în calcul peste 60 de state. La nivelul Uniunii Europene, Italia înregistrează cel mai scăzut scor. ',
             location: {
@@ -1424,6 +1370,36 @@ var config = {
             title: '',
             image: '',
             description: 'Există o tendință în aceste regiuni de a subestima sau de a neglija alte abilități și calități care nu sunt direct legate de munca asiduă. Caracteristici precum gestionarea banilor, altruismul sau imaginația pot fi trecute pe plan secundar, prioritate având munca și realizările materiale. Acest lucru se datorează în mare parte necesității de a rezolva problemele imediate și de a construi o stabilitate financiară.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 1,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'fin4',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'În 2023, pe întreg globul trăiau 2.2 miliarde de copii, iar aproximativ 80 de milioane dintre ei trăiau în Uniunea Europeană. Fiecare s-a născut și va crește în condiții și cu șanse diferite, în funcție de țara și familia unde a venit pe lume',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
