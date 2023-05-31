@@ -13,7 +13,7 @@ var config = {
     title: '<span style="font-family:sans-serif; padding: 0.5vh; border-radius: 10px; color:#926834; font-size:1.2rem" >Copiii României, copiii Europei</span>',
     subtitle: '<span style=" font-family: playfair display, serif; color:#926834; font-size:2.3rem" >Cum arăta povestea vieții copilului tău, dacă s-ar fi născut în altă țară</span>',
     byline: '<a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a> <p> <img src="./scroll.png"> </p> <p> scroll </p> <p><img src="./copii.png" </p>',
-    footer: '<br> Creat folosind <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling </a> <p>Ilustrația este făcută cu Microsoft Bing Image creator</p>',
+    footer: '<br> 1 iunie 2023 <br> <a href="https://panorama.ro/author/andrei-luca-popescu/" target="_blank">Editor: Andrei Luca Popescu</a> <br> Creat folosind <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling </a> <p>Ilustrația este făcută cu Microsoft Bing Image creator</p>',
     chapters: [
         {
             id: 'slug-style-id',
@@ -210,7 +210,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem"  >Indicator: Rata mortalității la copiii până în vârsta de 5 ani </span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Bulgaria, Malta </p>',
             image: '',
-            description: 'E vorba de probabilitatea ca un nou-născut să moară înainte de a atinge vârsta de 5 ani, exprimată per 1.000 de nașteri vii. În 2021, 5 milioane de copii sub vârsta de 5 ani au murit, în toată lumea. În UE mor, în medie, 3,7 copii din 1000 cu vârsta sub 5 ani.  La nivel global, bolile infecțioase, inclusiv pneumonie, diaree și malaria, rămân principalele cauze ale deceselor la copiii sub 5 ani, alături de nașterea prematură și complicațiile legate de naștere. Copiii din România și Bulgaria sunt fetițele cu chibrituri ale Europei. Acestea sunt țările UE unde mor cei mai mulți copii sub 5 ani.',
+            description: 'E vorba de probabilitatea ca un nou-născut să moară înainte de a atinge vârsta de 5 ani, exprimată per 1.000 de nașteri vii. În 2021, 5 milioane de copii sub vârsta de 5 ani au murit, în toată lumea. În UE mor, în medie, 3,7 copii din 1000 cu vârsta sub 5 ani.  La nivel global, bolile infecțioase, inclusiv pneumonie, diaree și malarie, rămân principalele cauze ale deceselor la copiii sub 5 ani, alături de nașterea prematură și complicațiile legate de naștere. Copiii din România și Bulgaria sunt fetițele cu chibrituri ale Europei. Acestea sunt țările UE unde mor cei mai mulți copii sub 5 ani.',
             location: {
                 center: [24.233145, 45.976924],
                 zoom: 6,
@@ -358,7 +358,7 @@ var config = {
             id: 'exp3',
             alignment: 'left',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Oliver Twist </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De Charles Dickens </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Lipsurile sărăciei </span> </p>',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Oliver Twist </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De Charles Dickens </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Sărăcie </span> </p>',
             image: '',
             description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./oliver.png"></div>Romanul clasic al lui Charles Dickens urmărește viața unui tânăr orfan, care crește în condițiile aspre ale unei instituții de ocrotire din Anglia secolului al XIX-lea. După ce trece prin abuzuri și greutăți, Oliver evadează și ajunge să fie exploatat în lumea infracțională a Londrei. ',
             location: {
@@ -390,7 +390,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata deprivării materiale severe la copiii sub 18 ani</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Bulgaria, Grecia </p>',
             image: '',
-            description: 'Sărăcia nu e doar un cuvânt generic pentru cei care nu au bani. Se traduce în situații extrem de concrete, în statisticile UE. Conform Eurostat, deprivarea materială severă apare atunci când cel puțin 7 din 13 privațiuni există în viața unui copil. Mai exact, el sau familia în care trăiește nu își pot permite următoarele lucruri: i) să plătească chiria sau facturile de utilități; ii) să își mențină locuința suficient de caldă; iii) să facă față cheltuielilor neprevăzute; iv) să consume carne sau echivalent proteic în fiecare a doua zi; v) să aibă o săptămână de vacanță; vi) să aibă acces la un autoturism; vii) să înlocuiască mobilierul uzat; viii) să înlocuiască hainele uzate cu altele noi; ix) să aibă două perechi de pantofi potriviți; x) să aibă bani de buzunar, xi) să aibă activități de petrecere a timpului liber regulate; xii) să se întâlnească cu prietenii/familia la o masă cel puțin o dată pe lună; xiii) să aibă o conexiune la internet. ',
+            description: 'Sărăcia nu e doar un cuvânt generic pentru cei care nu au bani. Se traduce în situații extrem de concrete, în statisticile UE. Conform Eurostat, deprivarea materială severă apare atunci când cel puțin 7 din 13 privațiuni există în viața unui copil. Mai exact, el sau familia în care trăiește nu își pot permite următoarele lucruri: 1) să plătească chiria sau facturile de utilități; 2) să își mențină locuința suficient de caldă; 3) să facă față cheltuielilor neprevăzute; 4) să consume carne sau echivalent proteic în fiecare a doua zi; 5) să aibă o săptămână de vacanță; 6) să aibă acces la un autoturism; 7) să înlocuiască mobilierul uzat; 8) să înlocuiască hainele uzate cu altele noi; 9) să aibă două perechi de pantofi potriviți; 10) să aibă bani de buzunar, 11) să aibă activități de petrecere a timpului liber regulate; 12) să se întâlnească cu prietenii/familia la o masă cel puțin o dată pe lună; 13) să aibă o conexiune la internet. ',
             location: {
                 center: [24.233145, 45.976924],
                 zoom: 5,
@@ -480,7 +480,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Copiii crescuți de bunici</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Italia, Spania </p>',
             image: '',
-            description: 'În Portugalia, Spania, Italia și România, unde plățile de asistență socială pentru părinți și pentru mamele care stau acasă sunt limitate, iar îngrijirea formală a copiilor și oportunitățile de muncă cu jumătate de normă pentru mame sunt puține, bunicii oferă o mare parte din îngrijirea intensivă a nepoților lor. Tot în grija bunicilor ajung și copiii ai căror părinți sunt plecați la muncă în alte țări sau orașe, așa cum este cazul atât de des în România.',
+            description: 'În Portugalia, Spania, Italia și România, unde plățile de asistență socială pentru părinți și pentru mamele care stau acasă sunt limitate, iar îngrijirea formală a copiilor și oportunitățile de muncă cu jumătate de normă pentru mame sunt puține, bunicile oferă o mare parte din îngrijirea intensivă a nepoților lor. Tot în grija bunicilor ajung și copiii ai căror părinți sunt plecați la muncă în alte țări sau orașe, așa cum este cazul atât de des în România.',
             location: {
                 center: [24.233145, 45.976924],
                 zoom: 5,
@@ -570,7 +570,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Educația părinților</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Danemarca, Olanda, Irlanda </p>',
             image: '',
-            description: 'Educația părinților se referă la procentul copiilor ai căror părinți au mai mult decât studii liceale. <iframe title="Procentul copiilor ai căror părinți au absolvit învățământul tertiar" aria-label="Map" id="datawrapper-chart-o69c3" src="https://datawrapper.dwcdn.net/o69c3/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="647" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script>',
+            description: 'Educația părinților se referă la procentul copiilor ai căror părinți au mai mult decât studii liceale.',
             location: {
                 center: [5.289564, 52.121422],
                 zoom: 5,
@@ -595,10 +595,42 @@ var config = {
             ]
         },
         {
+            id: 'ind5.1',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<iframe title="Procentul copiilor ai căror părinți au absolvit învățământul tertiar" aria-label="Map" id="datawrapper-chart-o69c3" src="https://datawrapper.dwcdn.net/o69c3/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="647" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script>',
+            location: {
+                center: [5.289564, 52.121422],
+                zoom: 6,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+
+
+        {
             id: 'exp6',
             alignment: 'left',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Alice </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >Lewis Carroll </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Capacitatea de a rezolva probleme complexe </span> </p>',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Alice </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De Lewis Carroll </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Capacitatea de a rezolva probleme complexe </span> </p>',
             image: '',
             description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./alice.png"></div>Alice este o fată educată și curioasă intelectual. Ea caută constant cunoștințe și se adâncește în activități academice, servind ca model pentru colegii ei și folosindu-și inteligența pentru a rezolva probleme complexe.',
             location: {
@@ -630,7 +662,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rezultatele la testele PISA</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Estonia, Finlanda, Irlanda </p>',
             image: '',
-            description: 'În anul 2018, la testele PISA, copiii din Estonia, Finlanda, Polonia, Irlanda, Slovenia au înregistrat cele mai mari scoruri, de peste 500 de puncte. Elevii din România au avut unul dintre cele mai mici punctaje, 428 de puncte. (aici vine harta care nu merge',
+            description: 'În anul 2018, la testele PISA, copiii din Estonia, Finlanda, Polonia, Irlanda, Slovenia au înregistrat cele mai mari scoruri, de peste 500 de puncte. Elevii din România au avut unul dintre cele mai mici punctaje, 428 de puncte.',
             location: {
                 center: [24.838502, 59.323163],
                 zoom: 5,
@@ -688,7 +720,7 @@ var config = {
             id: 'exp7',
             alignment: 'left',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Huckleberry Finn </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >Mark Twain </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Copiii abuzați </span> </p>',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Huckleberry Finn </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De Mark Twain </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Copiii abuzați </span> </p>',
             image: '',
             description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./huck.png"></div>Huck este un băiat neastâmpărat și independent din Missouri-ul american, care trăiește în grija văduvei Douglas, o femeie cu inimă bună, care încearcă să-l civilizeze. Cu toate acestea, Huck tânjește după libertate și resimte constrângerile societății. Într-o zi, tatăl său abuziv și alcoolic se întoarce în oraș și cere custodia lui Huck. Îngrijorat pentru siguranța sa, băiatul decide să-și simuleze propria moarte și să fugă.',
             location: {
@@ -780,7 +812,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >După chipul și asemănarea lor. Cum își modelează părinții propriii copii</span> ',
             image: '',
-            description: 'Copiii sunt influențați în mare măsură de mediul în care trăiesc și de oportunitățile sau obstacolele de care se lovesc în procesul lor de creștere. Fiecare țară și regiune are caracteristici specifice, care determină în mod direct percepția și atitudinea copiilor față de viață, dar și modul în care aceștia se comportă ca adulți. Iar importanța părinților în modelarea imaginii copiilor și transmiterea valorilor este crucială. Vom explora explora modul în care părinții din diverse țări reprezentative pentru marile zone ale Europei se raportează la valorile pe care le inoculează copiilor lor. ',
+            description: 'Copiii sunt influențați în mare măsură de mediul în care trăiesc și de oportunitățile sau obstacolele de care se lovesc în procesul lor de creștere. Fiecare țară și regiune are caracteristici specifice, care determină în mod direct percepția și atitudinea copiilor față de viață, dar și modul în care aceștia se comportă ca adulți. Iar importanța părinților în modelarea imaginii copiilor și transmiterea valorilor este crucială. Vom explora modul în care părinții din diverse țări reprezentative pentru marile zone ale Europei se raportează la valorile pe care le inoculează copiilor lor. ',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 5,
@@ -982,7 +1014,7 @@ var config = {
             hidden: false,
             title: '', 
             image: './cehia.png',
-            description: 'Pentru cehi, responsabilizarea copiilor este extrem de importantă. Puțin peste 60% dintre părinți o privesc ca pe cea mai importantă deprindere. La câteva procente distanță se găsesc toleranța și determinarea. Pentru cehi, este important ca, încă de mici, copiii să fie perseverenți și determinați.',
+            description: 'Pentru cehi, responsabilizarea copiilor este extrem de importantă. Puțin peste 60% dintre părinți o privesc ca pe cea mai importantă deprindere. La câteva procente distanță se găsesc toleranța și determinarea.',
             location: {
                 center: [14.496911, 50.017777],
                 zoom: 8,
@@ -1020,7 +1052,7 @@ var config = {
             hidden: false,
             title: '',
             image: './germania.png',
-            description: '84% dintre părinții din Germania pun bunele maniere în topul deprinderilor copiilor. 80% dintre ei pun responsabilizarea ca deprindere importantă în educația copiilor. Și independența joacă un rol important în educația micilor nemți, fiind a treia cea mai intens selectată caracteristică de către părinți. ',
+            description: '84% dintre părinții din Germania pun bunele maniere în topul deprinderilor copiilor. 80% dintre ei consideră responsabilizarea ca deprindere importantă în educația copiilor. Și independența joacă un rol important în educația micilor nemți, fiind a treia cea mai intens selectată caracteristică de către părinți. ',
             location: {
                 center: [9.464329, 48.817151],
                 zoom: 8,
@@ -1096,7 +1128,7 @@ var config = {
             hidden: false,
             title: '',
             image: './olanda.png',
-            description: 'Responsabilitatea este cea mai importantă calitate pe care un părinte din Olanda i-o poate transmite copilului. Alte valori precum independența sau toleranța și respectul sunt și ele importante. Interesant este faptul că, după sârbi, olandezii sunt al doilea popor din Europa pentru care altruismul este important.',
+            description: 'Responsabilitatea este cea mai importantă calitate pe care un părinte din Olanda i-o poate transmite copilului. Alte valori, precum independența sau toleranța și respectul, sunt și ele importante. Interesant este faptul că, după sârbi, olandezii sunt al doilea popor din Europa pentru care altruismul este important.',
             location: {
                 center: [4.860635, 52.370084],
                 zoom: 8,
@@ -1399,7 +1431,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'În 2023, pe întreg globul trăiau 2.2 miliarde de copii, iar aproximativ 80 de milioane dintre ei trăiau în Uniunea Europeană. Fiecare s-a născut și va crește în condiții și cu șanse diferite, în funcție de țara și familia unde a venit pe lume',
+            description: 'În 2023, pe întreg globul trăiau 2,2 miliarde de copii, iar aproximativ 80 de milioane dintre ei trăiau în Uniunea Europeană. Fiecare s-a născut și va crește în condiții și cu șanse diferite, în funcție de țara și familia unde a venit pe lume.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
