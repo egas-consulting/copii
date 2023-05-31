@@ -390,7 +390,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata deprivării materiale severe la copiii sub 18 ani</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Bulgaria, Grecia </p>',
             image: '',
-            description: 'Sărăcia nu e doar un cuvânt generic pentru cei care nu au bani. Se traduce în situații extrem de concrete, în statisticile UE. Conform Eurostat, deprivarea materială severă apare atunci când cel puțin 7 din 13 privațiuni există în viața unui copil. Mai exact, el sau familia în care trăiește nu își pot permite următoarele lucruri: 1) să plătească chiria sau facturile de utilități; 2) să își mențină locuința suficient de caldă; 3) să facă față cheltuielilor neprevăzute; 4) să consume carne sau echivalent proteic în fiecare a doua zi; 5) să aibă o săptămână de vacanță; 6) să aibă acces la un autoturism; 7) să înlocuiască mobilierul uzat; 8) să înlocuiască hainele uzate cu altele noi; 9) să aibă două perechi de pantofi potriviți; 10) să aibă bani de buzunar, 11) să aibă activități de petrecere a timpului liber regulate; 12) să se întâlnească cu prietenii/familia la o masă cel puțin o dată pe lună; 13) să aibă o conexiune la internet. ',
+            description: 'Sărăcia nu e doar un cuvânt generic pentru cei care nu au bani. Se traduce în situații extrem de concrete, în statisticile UE. Conform Eurostat, deprivarea materială severă apare atunci când cel puțin 7 din 13 privațiuni există în viața unui copil.',
             location: {
                 center: [24.233145, 45.976924],
                 zoom: 5,
@@ -722,7 +722,7 @@ var config = {
             hidden: false,
             title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Huckleberry Finn </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De Mark Twain </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Copiii abuzați </span> </p>',
             image: '',
-            description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./huck.png"></div>Huck este un băiat neastâmpărat și independent din Missouri-ul american, care trăiește în grija văduvei Douglas, o femeie cu inimă bună, care încearcă să-l civilizeze. Cu toate acestea, Huck tânjește după libertate și resimte constrângerile societății. Într-o zi, tatăl său abuziv și alcoolic se întoarce în oraș și cere custodia lui Huck. Îngrijorat pentru siguranța sa, băiatul decide să-și simuleze propria moarte și să fugă.',
+            description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./huck.png"></div>Huck este un băiat neastâmpărat și independent din Missouri, care trăiește în grija văduvei Douglas, o femeie cu inimă bună, care încearcă să-l civilizeze. Într-o zi, tatăl său abuziv și alcoolic se întoarce în oraș și cere custodia lui Huck. Îngrijorat pentru siguranța sa, băiatul decide să-și simuleze propria moarte.',
             location: {
                 center: [11.487853, 43.663277],
                 zoom: 4,
