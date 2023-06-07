@@ -660,7 +660,7 @@ var config = {
             id: 'ind6',
             alignment: 'right',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rezultatele la testele PISA</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Estonia, Finlanda, Irlanda </p>',
+            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rezultatele la testele PISA</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Estonia, Finlanda, Polonia </p>',
             image: '',
             description: 'În anul 2018, la testele PISA, copiii din Estonia, Finlanda, Polonia, Irlanda, Slovenia au înregistrat cele mai mari scoruri, de peste 500 de puncte. Elevii din România au avut unul dintre cele mai mici punctaje, 428 de puncte.',
             location: {
